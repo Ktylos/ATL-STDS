@@ -1,8 +1,25 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
+title: "ATL BIM & CAD Standards"
+description: "Version-controlled standards for CAD and BIM at ATL."
+theme: "just-the-docs"
+remote_theme: just-the-docs/just-the-docs
+color_scheme: "light"
 
-url: https://just-the-docs.github.io
+# Enable for clean sidebar nav
+collections:
+  cad:
+    output: true
+    permalink: /cad/:path/
+  bim:
+    output: true
+    permalink: /bim/:path/
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+just_the_docs:
+  collections:
+    cad:
+      name: "CAD Standards"
+      nav_exclude: false
+    bim:
+      name: "BIM Standards"
+      nav_exclude: false
+
+url: "https://bim.atlstandards.com"
