@@ -1,6 +1,6 @@
 ---
 title: BIM Documents
-nav_order: 2
+nav_order: 3
 parent: "BIM Standard"
 ---
 # BIM DOCUMENTS AND SUPPORT FILES
