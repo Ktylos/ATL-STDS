@@ -36,3 +36,4 @@ jobs:
           port: 21
           server-dir: /public_html/bim/
           local-dir: _site/
+          log-level: verbose
